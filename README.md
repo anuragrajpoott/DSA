@@ -6,8 +6,6 @@ This repository contains a collection of code implementations for various Data S
 
 - [Data Structures](#data-structures)
 - [Algorithms](#algorithms)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Data Structures
 
@@ -33,12 +31,3 @@ The following algorithms are included in this repository:
 - Backtracking
 - Graph Algorithms (e.g., Dijkstra's, BFS, DFS)
 - Divide and Conquer
-
-## Contributing
-
-Contributions are welcome! If you'd like to add your own DSA solutions, feel free to fork this repository and create a pull request.
-
-To contribute:
-1. Fork the repository.
-2. Create a branch (`git checkout -b feature-name`).
-3. Commit your changes (`git commit -am 'Add feature'`).
