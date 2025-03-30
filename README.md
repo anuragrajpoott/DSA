@@ -1,6 +1,6 @@
 # DSA Code Collection
 
-This repository contains a collection of code implementations for various Data Structures and Algorithms (DSA). The purpose of this repository is to provide solutions to common problems and demonstrate efficient coding practices for DSA concepts. It includes a wide range of problems and their solutions, aiming to enhance problem-solving skills and understanding of key computer science concepts.
+This repository contains a collection of C++ code implementations for various Data Structures and Algorithms (DSA). The purpose of this repository is to provide solutions to common problems and demonstrate efficient coding practices for DSA concepts. It includes a wide range of problems and their solutions, aiming to enhance problem-solving skills and understanding of key computer science concepts.
 
 ## Table of Contents
 
@@ -70,3 +70,61 @@ To get started with any code in this repository, follow these steps:
    ```bash
    git clone https://github.com/your-username/dsa-code-collection.git
    cd dsa-code-collection
+Compile the C++ code: Use g++ or any other C++ compiler to compile the code files. For example:
+
+g++ bst/bst.cpp -o bst/bst
+Run the compiled code: After compiling, you can run the compiled executable:
+
+./bst/bst
+Repeat these steps for other files as needed.
+
+Folder Structure
+The folder structure is organized as follows:
+
+graphql
+Copy
+dsa-code-collection/
+│
+├── bst/                   # Binary Search Tree (BST) implementation
+│   └── bst.cpp            # BST operations in C++
+│
+├── graph/                 # Graph-related algorithms
+│   └── dfsGraph.cpp       # Depth First Search (DFS) implementation for graphs in C++
+│
+├── hashmap/               # HashMap implementation and operations
+│   └── hashmap.cpp        # HashMap operations in C++
+│
+├── heap/                  # Heap data structure implementation
+│   └── heap.cpp           # Heap operations (min-heap/max-heap) in C++
+│
+├── linkedlist/            # Linked List implementations
+│   └── linkedlist.cpp     # Singly/Doubly linked list operations in C++
+│
+├── queue/                 # Queue data structure implementations
+│   └── queue.cpp          # Queue operations (Array-based/Linked list-based) in C++
+│
+├── stack/                 # Stack data structure implementation
+│   └── stack.cpp          # Stack operations (push, pop, peek) in C++
+│
+├── tree/                  # General Tree implementations
+│   └── tree.cpp           # Tree traversal and operations in C++
+│
+├── trie/                  # Trie data structure implementation
+│   └── trie.cpp           # Trie operations (insert, search, delete) in C++
+│
+├── .gitignore             # Git ignore file to exclude unnecessary files
+├── README.md              # This file
+└── requirements.txt       # Python dependencies (if needed) or any other dependencies
+
+
+##License
+This project is open-source and available under the MIT License.
+
+
+
+### Key Changes:
+- **C++ Code Mention**: All the references to code are now focused on C++ files (e.g., `.cpp` extensions).
+- **Compilation Instructions**: Added instructions for compiling the C++ code with a C++ compiler like `g++`.
+- **Folder Structure**: Reflects the exact folder structure with `.cpp` files for each data structure and algorithm implementation.
+
+This should now accurately reflect the use of C++ in your DSA code collection repository. Let me know if you need any further adjustments!
